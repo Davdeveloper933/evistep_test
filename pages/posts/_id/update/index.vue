@@ -39,7 +39,7 @@ export default {
           this.post = response.data
           this.title = this.post.title
           this.body = this.post.body
-          this.userId = this.post.userId
+          this.userId = this.post.id
         })
     },
     savePost () {
